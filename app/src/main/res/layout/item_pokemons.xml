@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@color/red"
+    android:layout_marginTop="5dp"
+    >
+    <ImageView
+        android:id="@+id/ivPokemonImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginStart="100dp"
+            android:id="@+id/tvPokemonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            tools:text="Charizard"
+            />
+        <TextView
+            android:layout_marginStart="100dp"
+            android:id="@+id/tvPokemonType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            tools:text="Fuego - Volador"
+            />
+
+        <TextView
+            android:layout_marginStart="100dp"
+            android:textSize="20sp"
+            android:id="@+id/tvPokemonRegion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Kanto"
+            />
+    </LinearLayout>
+</LinearLayout>
